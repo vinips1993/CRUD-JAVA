@@ -3,7 +3,7 @@ package org.fiap.crud.infrastructure;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class MercadoDbManager {
+public class ProdutoDbManager {
 
     public static Connection obterConexao () {
         Connection conexao = null;
