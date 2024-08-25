@@ -1,8 +1,8 @@
-package org.fiap.crud.Iinfrastructure;
+package org.fiap.crud.view;
 
 import java.sql.*;
 
-public class TesteDeConexao {
+public class TestecCrudEstatico {
 
     public static void main(String[] args) throws ClassNotFoundException {
         try {
