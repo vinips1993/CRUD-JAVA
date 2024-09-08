@@ -1,7 +1,6 @@
 package org.fiap.crud.dao;
 
 import org.fiap.crud.models.Produto;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.List;
@@ -13,7 +12,6 @@ public class ProdutoDaoImpl implements ProdutoDao{
 
     @Override
     public void gravar(Produto produto) {
-
     }
 
     @Override
@@ -28,11 +26,9 @@ public class ProdutoDaoImpl implements ProdutoDao{
 
     @Override
     public void atualizar(Produto produto) {
-
     }
 
     @Override
     public void remover(int codigo) {
-
     }
 }
